@@ -13,3 +13,4 @@ with io.open("words_frecuency.txt", "w", encoding="utf8") as f:
 	f.write("Word\tOcurrencias\n")
 	for key,value in ordered_words.items():
 		f.write(str(key)+"\t"+str(value)+"\n")
+
