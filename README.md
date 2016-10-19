@@ -2,7 +2,7 @@
 
 Calculates what are the most frecuent words in a WhatsApp exported conversation file.
 
-Example to get how many words have been written by day (ordered by date) and exported to a file:
+Example to get how many words have been written by day (ordered by date) and export it to a file:
 ```python
 conver_handler = WsappConver(filepath)
 all_words = conver_handler.get_ordered_density_words()
